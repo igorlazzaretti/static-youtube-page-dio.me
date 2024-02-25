@@ -34,12 +34,13 @@
     border: 2px solid #cccc;
     border-radius: 50% 50%;
     background-color: #cccccc55;
-    
+    }
+    .nav__item .nav-audio-serach:hover{
+        background-color: #ccc;
     }
 
 .nav__item .nav-audio-serach a>img{
     width: 21px;
-
     }
 
 
