@@ -148,7 +148,8 @@
     height: 537px;
     margin-left: 10px;
     flex: 1 0 auto;
-    border: 1px solid #ccc;     
+    border: 1px solid #ccc;
+    border-radius: 12px;
 }
 
 .title-video {
