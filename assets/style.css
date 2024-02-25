@@ -25,10 +25,21 @@
     align-items: center;
     gap: 16px;
 }
+#left_nav_menu{
+    width: 40px; height: 40px;  display: flex;
+    justify-content: center;
+    align-items: center;}
+
+#left_nav_menu:hover{
+    width: 40px; height: 40px;
+    background-color: #dbdbdb;
+    border-radius: 50%;
+}
+
 #user_language{
     margin-left: -10px;
     margin-top: -10px;
-    
+
 }
 .nav-item-search {
     max-width: 500px;
