@@ -28,11 +28,18 @@
     max-width: 500px;
     flex: 2 1 100px;
 }
-.nav__item .nav-audio-serach a>img{
-    width: 23px;
+.nav__item .nav-audio-serach{
+    height: 32px;
+    width: 32px;
     border: 2px solid #cccc;
-    border-radius: 10px 10px 10px 10px;
-    background-color: #cccc;
+    border-radius: 50% 50%;
+    background-color: #cccccc55;
+    
+    }
+
+.nav__item .nav-audio-serach a>img{
+    width: 21px;
+
     }
 
 
