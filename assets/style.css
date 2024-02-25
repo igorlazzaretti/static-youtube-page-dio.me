@@ -167,7 +167,7 @@
     width: 400px;
     margin-bottom: 10px;
 }
-.tambs div img{
+.tambs div>img{
     width: 160px;
     height: 90px;
     border-radius: 10px;
