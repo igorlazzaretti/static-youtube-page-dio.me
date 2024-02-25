@@ -46,7 +46,7 @@
 .nav__item .nav-audio-serach{
     height: 32px;
     width: 32px;
-    border: 2px solid #cccc;
+    border: 0.5px solid #cccc;
     border-radius: 50% 50%;
     background-color: #cccccc55;
 }
@@ -83,7 +83,7 @@
 
 .menu-search {
     display: flex;
-    border: 2px solid #cccc;
+    border: 0.5px solid #cccc;
     border-radius: 10px 10px 10px 10px;
     max-width: 500px;
     flex: 1 0 100px;
@@ -108,7 +108,7 @@
 .img-nav-menu-search a {
     display: flex;
     max-width: 100px;
-    border-left: 2px solid #ccc;
+    border-left: 0.5px solid #ccc;
     border-radius: 0px 10px 10px 0px;
     align-items: center;
     justify-content: center;
