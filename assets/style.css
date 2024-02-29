@@ -1,35 +1,61 @@
-
 *{
+    margin:0;
+    padding: 0;
+
+    text-decoration: none;
+}
+body{
     display: grid;
-    grid-gap: 10px;
+    height: 100vh;
+    grid-gap: 5px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px;
-    grid-template-areas: "igor igor" "flex grid"  ;
+    grid-template-rows: 80px 400px;
+    grid-template-areas: 'igor igor''flex grid';
+    align-items: center;
 }
 
 /* HEADER */
 header{
+    justify-self: center;
     justify-items: center;
-    align-items: center;
     grid-area: igor;
-    width: 100%;
+    
 }
+
 header img{
-    width: 50px;
+    width: 48px;
+    align-items: center;
 }
 
 /* FLEX */
 
 #flex{
+    justify-self: center;
     justify-items: center;
-    align-items: center;
     grid-area: flex;
+    text-decoration: none;
+    background-color: aquamarine;
+    width: 500px;
+}
+#flex p{
+    font-size: 80px;
+    text-decoration: none;
+    color: blueviolet;
+
 }
 
 /* GRID */
 
 #grid{
+    justify-self: center;
     justify-items: center;
     align-items: center;
     grid-area: grid;
+    background-color: aquamarine;
+    width: 500px;
+}
+#grid p{
+    font-size: 80px;
+    text-decoration: none;
+    color: blueviolet;
 }
