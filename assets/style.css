@@ -1,0 +1,37 @@
+
+*{
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'flex grid'
+    ;
+}
+
+/* HEADER */
+header{
+    justify-items: center;
+    align-items: center;
+    grid-area: header;
+    width: 100%;
+}
+header img{
+    width: 50px;
+}
+
+/* FLEX */
+
+#flex{
+    width: 50vw;
+    justify-items: center;
+    align-items: center;
+    grid-area: flex;
+}
+
+/* GRID */
+
+#grid{
+    width: 50vw;
+    justify-items: center;
+    align-items: center;
+    grid-area: grid;
+}
