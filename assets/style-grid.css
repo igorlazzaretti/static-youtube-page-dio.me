@@ -98,29 +98,42 @@
 
 /* MAIN GRID */
 #main{
-    background-color: cadetblue;
+    background-color: rgb(255, 255, 255);
     display: grid;
     position: fixed;
     width: 84.86%; height: fit-content;
     top: calc(56px + 50px);
     left: 15.14%;
-    grid-template-columns: 282px;
-    grid-row: 262px;
+    grid-template-columns: repeat(4, 282px);
+    grid-auto-row: 262px;
     grid-gap: 20px;
-    
+    grid-auto-flow: row;
 
 }
 .main_grid{
     padding: 10px;
-    display:inline-block;
+    display:inline;
 }
 .main_grid_img{
     width: 250px;
     height: 140px;
+}
+.div_avatar_plus_infos{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 74px;
 }
 .div_avatar{
     height: 74px; width: 43px;
 }
 .avatar{
     width: 42px; height: 42px;
+}
+.main_grid h3{
+    width: 100%; height: 35px; 
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.main_grid p{
+    width: 100%; 
 }
