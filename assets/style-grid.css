@@ -40,52 +40,69 @@
 /* SELECTOR */
 #selector{
     background-color: #FFFFFF;
-    display: flex;
     position: fixed;
-    width: 84.86%; height: 46px;
+    width: 84.86%; height: 50px;
     top: 56px;
     right: 0;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
+    text-align: center;
+    display: flex;    
 }
 .selector_div{
-    background-color: rgb(116, 26, 65);
-    width: calc(100px + auto); height: 30px;
-    margin-right: 10px;
-    border-radius: 20px;
+    display: flex;
+    background-color: rgba(230, 230, 230, 0.338);
+    width: fit-content; height: 30px;
+    margin-left: 15px;
+    border-radius: 6px;
+    flex-direction: row;
     
-
 }
 .selector_div p{
-    font-size: 10px;
+    font-size: 22px;
     align-self: center;
-    
+    align-content: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+  
 }
 
 
 
 /* LEFT SIDEBAR */
 #sidebar{
-    background-color: blueviolet;
-    display: flex;
+    background-color: #FFFFFF;
     position: fixed;
     width: 15.14%; height: calc(100vh - 56px);
     top: 56px;
     left: 0;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-auto-rows: 30px;
+    row-gap: 20px; 
+    justify-content:space-around;
     align-items: center;
 
 }
+.sidebar_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 14px;
+    margin-left: 20px;
+ 
+}
+.sidebar_div h2{
+    margin-left: 16px;
+}
+
 /* MAIN GRID */
 #main{
     background-color: cadetblue;
     display: grid;
     position: fixed;
     width: 84.86%; height: fit-content;
-    top: calc(56px + 46px);
+    top: calc(56px + 50px);
     left: 15.14%;
    
 }
