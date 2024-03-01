@@ -104,5 +104,23 @@
     width: 84.86%; height: fit-content;
     top: calc(56px + 50px);
     left: 15.14%;
-   
+    grid-template-columns: 282px;
+    grid-row: 262px;
+    grid-gap: 20px;
+    
+
+}
+.main_grid{
+    padding: 10px;
+    display:inline-block;
+}
+.main_grid_img{
+    width: 250px;
+    height: 140px;
+}
+.div_avatar{
+    height: 74px; width: 43px;
+}
+.avatar{
+    width: 42px; height: 42px;
 }
