@@ -83,6 +83,7 @@
     justify-content:space-around;
     align-items: center;
 
+    overflow-y: scroll;
 }
 .sidebar_div{
     display: flex;
@@ -101,7 +102,7 @@
     background-color: rgb(255, 255, 255);
     display: grid;
     position: fixed;
-    width: 84.86%; height: fit-content;
+    width: 84.86%; height: 80vh;
     top: calc(56px + 50px);
     left: 15.14%;
     grid-template-columns: repeat(4, 282px);
@@ -109,10 +110,14 @@
     grid-gap: 20px;
     grid-auto-flow: row;
 
+    overflow-y: scroll;
+  
+
 }
 .main_grid{
     padding: 10px;
     display:inline;
+    margin-left: 10px;
 }
 .main_grid_img{
     width: 250px;
